@@ -1,0 +1,33 @@
+.logo {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5em;
+  border-bottom: 1px solid #000;
+  flex: 0 1 auto;
+  h1 {
+    margin-bottom: 0em;
+  }
+  .logo__images {
+    width: 100%;
+    max-width: 470px;
+  }
+  .logo__work {
+    width: 100%;
+    max-width: 360px;
+  }
+}
+
+.profession {
+  justify-content: center;
+  display: flex;
+}
+
+.work__time {
+  font-weight: bold;
+}
+b {
+  color: blue;
+}
+.closed {
+  color: red;
+}
