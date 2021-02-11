@@ -3558,9 +3558,9 @@
   dependencies:
     "pako" "~1.0.5"
 
-"browserslist@^4.14.5":
+"browserslist@^4", "browserslist@^4.0.0", "browserslist@^4.14.5", "browserslist@^4.16.1", "browserslist@^4.16.3", "browserslist@^4.6.2", "browserslist@^4.6.4", "browserslist@^4.8.3":
   "integrity" "sha512-vIyhWmIkULaq04Gt93txdh+j02yX/JzlyhLYbV3YQCn/zvES3JnY7TifHHvvr1w5hTDluNKMkV05cs4vy8Q7sw=="
-  "resolved" "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.3.tgz"
+  "resolved" "https://registry.npmjs.org/browserslist/-/browserslist-4.16.3.tgz"
   "version" "4.16.3"
   dependencies:
     "caniuse-lite" "^1.0.30001181"
@@ -3568,27 +3568,6 @@
     "electron-to-chromium" "^1.3.649"
     "escalade" "^3.1.1"
     "node-releases" "^1.1.70"
-
-"browserslist@^4.16.1":
-  "integrity" "sha512-vIyhWmIkULaq04Gt93txdh+j02yX/JzlyhLYbV3YQCn/zvES3JnY7TifHHvvr1w5hTDluNKMkV05cs4vy8Q7sw=="
-  "resolved" "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.3.tgz"
-  "version" "4.16.3"
-  dependencies:
-    "caniuse-lite" "^1.0.30001181"
-    "colorette" "^1.2.1"
-    "electron-to-chromium" "^1.3.649"
-    "escalade" "^3.1.1"
-    "node-releases" "^1.1.70"
-
-"browserslist@^4", "browserslist@^4.0.0", "browserslist@^4.6.2", "browserslist@^4.6.4", "browserslist@^4.8.3":
-  "integrity" "sha512-TpfK0TDgv71dzuTsEAlQiHeWQ/tiPqgNZVdv046fvNtBZrjbv2O3TsWCDU0AWGJJKCF/KsjNdLzR9hXOsh/CfA=="
-  "resolved" "https://registry.yarnpkg.com/browserslist/-/browserslist-4.10.0.tgz"
-  "version" "4.10.0"
-  dependencies:
-    "caniuse-lite" "^1.0.30001035"
-    "electron-to-chromium" "^1.3.378"
-    "node-releases" "^1.1.52"
-    "pkg-up" "^3.1.0"
 
 "browserslist@4.14.2":
   "integrity" "sha512-HI4lPveGKUR0x2StIz+2FXfDk9SfVMrxn6PLh1JeGUwcuoDkdKZebWiyLRJ68iIPDpMI4JLVDf7S7XzslgWOhw=="
@@ -3798,19 +3777,9 @@
     "lodash.memoize" "^4.1.2"
     "lodash.uniq" "^4.5.0"
 
-"caniuse-lite@^1.0.0", "caniuse-lite@^1.0.30000981", "caniuse-lite@^1.0.30001020", "caniuse-lite@^1.0.30001035":
-  "integrity" "sha512-C1ZxgkuA4/bUEdMbU5WrGY4+UhMFFiXrgNAfxiMIqWgFTWfv/xsZCS2xEHT2LMq7xAZfuAnu6mcqyDl0ZR6wLQ=="
-  "resolved" "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001035.tgz"
-  "version" "1.0.30001035"
-
-"caniuse-lite@^1.0.30001125":
+"caniuse-lite@^1.0.0", "caniuse-lite@^1.0.30000981", "caniuse-lite@^1.0.30001020", "caniuse-lite@^1.0.30001125", "caniuse-lite@^1.0.30001181":
   "integrity" "sha512-Fpi4kVNtNvJ15H0F6vwmXtb3tukv3Zg3qhKkOGUq7KJ1J6b9kf4dnNgtEAFXhRsJo0gNj9W60+wBvn0JcTvdTg=="
-  "resolved" "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001185.tgz"
-  "version" "1.0.30001185"
-
-"caniuse-lite@^1.0.30001181":
-  "integrity" "sha512-Fpi4kVNtNvJ15H0F6vwmXtb3tukv3Zg3qhKkOGUq7KJ1J6b9kf4dnNgtEAFXhRsJo0gNj9W60+wBvn0JcTvdTg=="
-  "resolved" "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001185.tgz"
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001185.tgz"
   "version" "1.0.30001185"
 
 "capture-exit@^2.0.0":
@@ -5126,11 +5095,6 @@
   "integrity" "sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA=="
   "resolved" "https://registry.yarnpkg.com/ejs/-/ejs-2.7.4.tgz"
   "version" "2.7.4"
-
-"electron-to-chromium@^1.3.378":
-  "integrity" "sha512-NK9DBBYEBb5f9D7zXI0hiE941gq3wkBeQmXs1ingigA/jnTg5mhwY2Z5egwA+ZI8OLGKCx0h1Cl8/xeuIBuLlg=="
-  "resolved" "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.379.tgz"
-  "version" "1.3.379"
 
 "electron-to-chromium@^1.3.564", "electron-to-chromium@^1.3.649":
   "integrity" "sha512-/9ROOyvEflEbaZFUeGofD+Tqs/WynbSTbNgNF+/TJJxH1ePD/e6VjZlDJpW3FFFd3nj5l3Hd8ki2vRwy+gyRFw=="
@@ -8872,13 +8836,6 @@
     "uuid" "^8.3.0"
     "which" "^2.0.2"
 
-"node-releases@^1.1.52":
-  "integrity" "sha512-snSiT1UypkgGt2wxPqS6ImEUICbNCMb31yaxWrOLXjhlt2z2/IBpaOxzONExqSm4y5oLnAqjjRWu+wsDzK5yNQ=="
-  "resolved" "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.52.tgz"
-  "version" "1.1.52"
-  dependencies:
-    "semver" "^6.3.0"
-
 "node-releases@^1.1.61", "node-releases@^1.1.70":
   "integrity" "sha512-Slf2s69+2/uAD79pVVQo8uSiC34+g8GWY8UH2Qtqv34ZfhYrxpYpfzs9Js9d6O0mbDmALuxaTlplnBTnSELcrw=="
   "resolved" "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.70.tgz"
@@ -9562,7 +9519,7 @@
   dependencies:
     "find-up" "^4.0.0"
 
-"pkg-up@^3.1.0", "pkg-up@3.1.0":
+"pkg-up@3.1.0":
   "integrity" "sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA=="
   "resolved" "https://registry.yarnpkg.com/pkg-up/-/pkg-up-3.1.0.tgz"
   "version" "3.1.0"

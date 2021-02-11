@@ -1,11 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
-
-body {
-  font-family: 'Lato', sans-serif;
-  box-sizing: border-box;
-  padding-top: 75px;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -36,10 +28,6 @@ header section .logo {
 header section a {
   float: right;
   padding: 3px 0;
-}
-
-* {
-  outline: none;
 }
 
 button {
@@ -120,22 +108,27 @@ button:hover {
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
+
   width: 32px;
   height: 32px;
   text-indent: -9999px;
   cursor: pointer;
 }
-
+.previousButton {
+  background: url('../../assets/back.svg') no-repeat center center / 26px;
+}
+.nextButton {
+  background: url('../../assets/next.svg') no-repeat center center / 26px;
+}
 .previousButton:hover,
 .nextButton:hover {
-  background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
+  background: url('') no-repeat center center / 16px;
 }
 
 .previousButton {
   left: 0;
-  -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
-  transform: rotate(180deg) translateY(calc(50% + 0px));
+  -webkit-transform: rotate(0deg) translateY(calc(50% + 0px));
+  transform: rotate(0deg) translateY(calc(50% + 0px));
 }
 
 .previousButton:hover {

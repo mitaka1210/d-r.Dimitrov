@@ -8,18 +8,16 @@ import { Home, About, Contact } from './pages';
 //import Header from './components/Header/Header';
 //import Footer from './components/Footer/Footer';
 
-import './App.scss';
+import './scss/style.scss';
 
 function App() {
   return (
     <Router>
-      <div className='App'>
-        <Navigation />
+      <Navigation />
 
-        <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/contact' component={Contact} />
-      </div>
+      <Route exact path='/' component={Home} />
+      <Route path='/about' component={About} />
+      <Route path='/contact' component={Contact} />
     </Router>
   );
 }

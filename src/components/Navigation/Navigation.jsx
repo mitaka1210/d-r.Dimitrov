@@ -4,10 +4,10 @@ import { Logo } from '../index.js';
 import './nav.scss';
 const Navigation = () => {
   return (
-    <div>
+    <>
       <Sidebar />
       <Logo />
-    </div>
+    </>
   );
 };
 

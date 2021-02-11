@@ -37,7 +37,7 @@ const content = [
 ];
 
 const MainSlider = () => (
-  <div>
+  <>
     <Slider autoplay={3000} className='slider-wrapper'>
       {content.map((item, index) => (
         <div
@@ -58,7 +58,7 @@ const MainSlider = () => (
         </div>
       ))}
     </Slider>
-  </div>
+  </>
 );
 
 export default MainSlider;

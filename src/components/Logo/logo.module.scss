@@ -1,33 +1,28 @@
-.logo {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 5em;
-  border-bottom: 1px solid #000;
-  flex: 0 1 auto;
-  h1 {
-    margin-bottom: 0em;
-  }
-  .logo__images {
+.img {
+  max-width: 1300px;
+  img {
     width: 100%;
-    max-width: 470px;
-  }
-  .logo__work {
-    width: 100%;
-    max-width: 360px;
+    margin-top: -2em;
   }
 }
 
-.profession {
-  justify-content: center;
+.my {
+  position: absolute;
+  top: 1em;
+  /* text-align: center; */
+  left: 37%;
+  font-size: 2rem;
   display: flex;
+  flex-flow: column wrap;
+  & > span {
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 15px 5px #328997;
+    box-shadow: 5px 5px 2px 5px #328997;
+    border-radius: 30%;
+  }
 }
-
-.work__time {
-  font-weight: bold;
-}
-b {
-  color: blue;
-}
-.closed {
-  color: red;
+.mainLogo {
+  position: absolute;
+  top: 9rem;
+  left: 49%;
 }

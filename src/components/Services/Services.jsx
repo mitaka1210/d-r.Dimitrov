@@ -4,7 +4,7 @@ import { useIntersection } from 'react-use';
 //? COMPONENTS
 import Card from './Card';
 //?Libary
-import gsap from 'gsap';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 //? STYLES

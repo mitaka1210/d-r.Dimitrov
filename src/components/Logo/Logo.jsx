@@ -2,29 +2,24 @@ import React from 'react';
 import style from './logo.module.scss';
 //import img1 from '../../Main/images/img-6.jpg';
 //import img2 from '../../Main/images/img-8.png';
+import topSVG from '../../assets/Vector.svg';
+import mainLogo from '../../assets/tooth insurance.svg';
 
 function Logo() {
   return (
     <div className={style.logo}>
-      <span>
-        <p>Free Call: +359 888888888</p>
-        <p>Street: </p>
-      </span>
-      {/*<span>
-        <h1>
-          <img className={style.logo__images} src='' alt='' />
-        </h1>
-        <p className={style.profession}>
-          <img className={style.logo__work} src='' alt='' />
-        </p>
-      </span>*/}
-
-      <span className={style.work__time}>
-        <p>Open Hours</p>
-        <p>
-          Mon-Sat: <b>8:00am - 9:00pm</b> Sun: <b className={style.closed}>CLOSED</b>
-        </p>
-      </span>
+      <div className={style.img}>
+        <img src={topSVG} alt='imges-top-svg' />
+      </div>
+      <div className={style.dR}>
+        <div className={style.my}>
+          <span>д-р А.Димитров</span>
+          <span>лекар по дентална медицина</span>
+        </div>
+        <div className={style.mainLogo}>
+          <img src={mainLogo} alt='main-logo' />
+        </div>
+      </div>
     </div>
   );
 }

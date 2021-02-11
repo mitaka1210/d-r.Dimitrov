@@ -1,0 +1,61 @@
+footer h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.wrapperFooter {
+  background-image: url('../../assets/VectorFooter.svg');
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+  .workTime {
+    flex: 3;
+    h3 {
+      text-align: center;
+    }
+
+    .daysHours {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .contactWithMe {
+    flex: 2;
+    display: flex;
+    flex-flow: column wrap;
+    & span:first-child {
+      margin-top: 0.6rem;
+    }
+  }
+  .takeAppointment {
+    position: absolute;
+    left: 52rem;
+  }
+  .socialMedia {
+    flex: 1 1;
+    display: flex;
+    align-items: flex-end;
+    margin: 20px;
+    & > button {
+      width: 7rem;
+      height: 2.5rem;
+      text-align: center;
+      padding: 2px;
+      margin: 1em;
+    }
+  }
+}
+
+//? MEDIA
+
+@media screen and (max-width: 500px) {
+  .wrapperFooter .takeAppointment {
+    left: 9rem;
+    margin-top: 12rem;
+  }
+  .wrapperFooter .socialMedia {
+    margin-top: 3rem;
+  }
+}
