@@ -1,0 +1,12 @@
+.nav__submenu {
+  display: none;
+}
+
+.nav__submenu-item {
+  width: 11rem;
+
+  &:hover {
+    background-color: lightblue;
+    text-decoration: underline;
+  }
+}

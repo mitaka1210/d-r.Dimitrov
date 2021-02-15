@@ -77,3 +77,12 @@ main {
     }
   }
 }
+@media screen and (max-width: 768px) {
+  main .flip-card {
+    width: 428px;
+  }
+
+  main .container .images img {
+    width: 420px;
+  }
+}

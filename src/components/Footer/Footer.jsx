@@ -34,7 +34,7 @@ const Footer = () => {
         <div className='takeAppointment'>
           <button>
             <span>
-              <a href='https://detistguide.setmore.com/'>Запазете си час!</a>
+              <a href='https://detistguide.setmore.com/'>Запазете си час сега!</a>
             </span>
           </button>
         </div>

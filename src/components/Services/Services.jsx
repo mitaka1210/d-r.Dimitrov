@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect } from 'react';
-
+import { Link, BrowserRouter, Route } from 'react-router-dom';
+import PageService from './PageService/PageService';
 import { useIntersection } from 'react-use';
 //? COMPONENTS
 import Card from './Card';
@@ -40,8 +41,13 @@ const Services = () => {
                       dolorem quidem sunt aperiam quo architecto ipsa, dolores blanditiis tempore
                       soluta.
                     </p>
-
-                    <a href='#'>Read More</a>
+                    <BrowserRouter>
+                      <Route>
+                        <Link to='./Pages/Pages.jsx' target='_blank'>
+                          Read More
+                        </Link>
+                      </Route>
+                    </BrowserRouter>
                   </div>
                 </div>
               </div>
@@ -63,7 +69,13 @@ const Services = () => {
                       soluta.
                     </p>
 
-                    <a href='#'>Read More</a>
+                    <BrowserRouter>
+                      <Route>
+                        <Link to='./Cosmetic/Cosmetic.jsx' target='_blank'>
+                          Read More
+                        </Link>
+                      </Route>
+                    </BrowserRouter>
                   </div>
                 </div>
               </div>

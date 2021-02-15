@@ -11,6 +11,14 @@ function Logo() {
       <div className={style.img}>
         <img src={topSVG} alt='imges-top-svg' />
       </div>
+      <div className='btn-header'>
+        <button>
+          {' '}
+          <a href='https://detistguide.setmore.com/' target='_blank'>
+            Запазете си час сега!
+          </a>
+        </button>
+      </div>
       <div className={style.dR}>
         <div className={style.my}>
           <span>д-р А.Димитров</span>

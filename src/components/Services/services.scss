@@ -4,6 +4,7 @@
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
+  text-align: center;
 }
 
 .servicesContainer {
@@ -171,4 +172,10 @@
 }
 .contentText > h6 {
   padding-top: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .servicesContainer {
+    justify-content: center;
+  }
 }

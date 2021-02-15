@@ -1,5 +1,6 @@
 .img {
   max-width: 1300px;
+  margin-bottom: 3rem;
   img {
     width: 100%;
     margin-top: -2em;
@@ -25,4 +26,10 @@
   position: absolute;
   top: 9rem;
   left: 49%;
+}
+
+.btn-header {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
 }

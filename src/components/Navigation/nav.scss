@@ -19,6 +19,14 @@
   color: white;
 }
 
+//.bm-item.nav__submenu {
+//  display: none;
+//}
+.bm-item:hover {
+  .nav__submenu {
+    display: block;
+  }
+}
 .bm-burger-button {
   position: fixed;
   width: 36px;

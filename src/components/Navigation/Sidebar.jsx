@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { bubble as Menu } from 'react-burger-menu';
 import { Link, Switch } from 'react-router-dom';
 import './nav.scss';
-import { useOnClickOutside } from './hook.js';
+import SubMenu from './SubMenu/SubMenu';
 export default class Sidebar extends React.Component {
   state = {
     menuOpen: false,
@@ -27,6 +27,7 @@ export default class Sidebar extends React.Component {
         </Link>
         <Link onClick={() => this.closeMenu()} className='menu-item' to='/about'>
           About
+          {/*<SubMenu />*/}
         </Link>
         <Link onClick={() => this.closeMenu()} className='menu-item' to='/contact'>
           Contact
