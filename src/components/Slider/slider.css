@@ -30,7 +30,7 @@ header section a {
   padding: 3px 0;
 }
 
-button {
+.slider-btn {
   -webkit-appearance: none;
   appearance: none;
   -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));

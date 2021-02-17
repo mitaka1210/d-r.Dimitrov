@@ -1,0 +1,23 @@
+.covid {
+  background-color: lawngreen;
+  position: absolute;
+  width: 50rem;
+  height: 50vh;
+  left: 8rem;
+  z-index: 2;
+  text-align: center;
+
+  border-top-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  p {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .covid {
+    width: 24rem;
+    height: 83vh;
+    left: 5rem;
+  }
+}

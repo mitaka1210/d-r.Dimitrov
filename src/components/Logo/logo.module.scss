@@ -28,8 +28,29 @@
   left: 49%;
 }
 
-.btn-header {
+.btn__Header {
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 2rem;
   position: absolute;
-  top: 2rem;
+
+  top: 1rem;
   left: 2rem;
+
+  .btn__Header_1,
+  .btn__Header_2 {
+    width: 11rem;
+    height: 2rem;
+    padding: 2px;
+    margin-bottom: 1rem;
+    background-color: var(--color-bgr-btn, #328997);
+    border: 2px solid #328997;
+    border-radius: 1em;
+
+    a {
+      &:hover {
+        color: #c4e538;
+      }
+    }
+  }
 }
