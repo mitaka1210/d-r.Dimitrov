@@ -1,0 +1,28 @@
+.wrapper__Abut {
+  text-align: center;
+}
+
+.img__About {
+  img {
+    width: 450px;
+    float: left;
+    border-radius: 50%;
+    shape-outside: circle(44.32% at 263px 139px);
+
+    margin-right: 13em;
+    margin-left: 2em;
+  }
+}
+
+.first__Ele {
+  padding-bottom: 0;
+  &:first-letter {
+    font-size: 2em;
+
+    color: red;
+  }
+}
+
+.second__Ele {
+  padding: 0px 15px 15px 15px;
+}

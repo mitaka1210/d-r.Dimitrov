@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.scss';
 import footerLogo from '../../assets/VectorFooter.svg';
+import Button from '../Buttons/Button';
 const Footer = () => {
   return (
     <footer>
@@ -27,16 +28,16 @@ const Footer = () => {
         </div>
 
         <div className='contactWithMe'>
-          <h4>Контакти</h4>
+          <h3>Контакти</h3>
           <span>phone: +359 8888888888</span>
           <span>email: dimitar_dimitrov12@mail.bg</span>
         </div>
         <div className='takeAppointment'>
-          <button>
+          <Button>
             <span>
               <a href='https://detistguide.setmore.com/'>Запазете си час сега!</a>
             </span>
-          </button>
+          </Button>
         </div>
         <div className='socialMedia'>
           <button>Facebook</button>

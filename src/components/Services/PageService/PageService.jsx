@@ -1,14 +1,23 @@
 import React from 'react';
-
-const PageService = ({ title, text }) => {
+//?COMPONENTS
+import Footer from '../../Footer/Footer';
+const PageService = ({ title, text, img, alt }) => {
   return (
-    <div>
-      <h2>{title}</h2>
-      <div className='wrapperSC'>
-        {/*<img src={} alt='' />*/}
-        <p>{text}</p>
+    <section>
+      <div className='content__Services'>
+        <h2>{title}</h2>
+        <div className='wrapper__Services'>
+          <div className='images__Right'>
+            <img src={img} alt={alt} />
+          </div>
+
+          <div className='text__Left'>
+            <p>{text}</p>
+          </div>
+        </div>
       </div>
-    </div>
+      <Footer />
+    </section>
   );
 };
 

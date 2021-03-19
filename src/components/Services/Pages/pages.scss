@@ -1,0 +1,27 @@
+.content__Services {
+  & > h2 {
+    width: 400px;
+    text-align: center;
+  }
+}
+.images__Right {
+  img {
+    width: 450px;
+    float: right;
+    border-radius: 50%;
+    shape-outside: circle(44.32% at 263px 139px);
+
+    margin-right: 13em;
+    margin-left: 2em;
+  }
+}
+
+.text__Left {
+  padding-left: 1rem;
+  p {
+    &::first-letter {
+      color: red;
+      font-size: 3em;
+    }
+  }
+}
