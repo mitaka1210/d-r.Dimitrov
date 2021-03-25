@@ -6,8 +6,8 @@ import img1 from '../../assets/images/img-2.jpg';
 //? STYLES
 import './about.scss';
 const AboutContent = () => {
-  return (
-    <section>
+    return (
+        <section>
       <br />
       <hr />
       <main>
@@ -49,9 +49,10 @@ const AboutContent = () => {
           </div>
         </div>
       </main>
+    
       <Footer />
     </section>
-  );
+    );
 };
 
 export default AboutContent;

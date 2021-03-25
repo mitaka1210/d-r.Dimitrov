@@ -16,9 +16,10 @@
   flex-flow: column wrap;
   & > span {
     text-align: center;
-    -webkit-box-shadow: 5px 5px 15px 5px #328997;
-    box-shadow: 5px 5px 2px 5px #328997;
-    border-radius: 30%;
+
+    a {
+      color: #41ff00;
+    }
   }
 }
 .mainLogo {

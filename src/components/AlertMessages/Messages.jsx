@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './message.scss';
-const Messages = ({ variant, children }) => {
+const Messages = ({ children }) => {
   const [show, setShow] = useState(true);
 
   // On componentDidMount set the timer

@@ -1,0 +1,32 @@
+.contact__header {
+  & > h1 {
+    text-align: center;
+  }
+  & > p {
+    text-align: center;
+  }
+}
+
+.map__contact {
+  display: flex;
+  flex-flow: row wrap;
+  .map {
+    flex: 2;
+  }
+  .contact__me {
+    background-image: url('../../assets/images/workingSchedule.jpg');
+    flex: 1;
+    text-align: center;
+    & > h2 {
+      color: white;
+    }
+    & > ul li {
+      color: white;
+    }
+  }
+}
+
+iframe {
+  width: 100%;
+  height: 50vh;
+}
