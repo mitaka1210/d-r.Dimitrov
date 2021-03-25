@@ -1,70 +1,181 @@
-# Getting Started with Create React App
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/mitaka1210/StrapDown.js/blob/master/LICENSE)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
+[![Website naereen.github.io](https://img.shields.io/website-up-down-green-red/https/naereen.github.io.svg)](https://naereen.github.io/)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/mitaka1210)
 
-## Available Scripts
+<div style="display:flex"> 
+  <div>
+    <a href="https://www.linkedin.com/in/dimitar-dimitrov1201/">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Logo" width="" height="" style="margin-right:15px">
+    </a>
+  </div>
+  <div styles="width:9em height:2em">
+    <a href="https://twitter.com/dimitar1201">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="" style="margin-right:15px">
+    </a>
+  </div>
+  <div>
+    <a href="https://www.facebook.com/mitaka1210">
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="" style="margin-right:15px">
+    </a></div>
+   
+</div>
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <a href="https://ibb.co/3Nx1WPW"><img src="https://i.ibb.co/3Nx1WPW/dda8ae289dfb57d723a16a13ea715682.jpg" alt="dda8ae289dfb57d723a16a13ea715682" border="0"></a>
 
-### `yarn start`
+  <h3 align="center">Website for dental practice D-r Dimitrov</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <p align="center">
+    Some information about Project!
+    <br />
+    <a href="https://github.com/mitaka1210/d-r.Dimitrov"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://app.netlify.com/sites/peaceful-kalam-0617fc/overview">View Demo</a>
+    ·
+    <a href="https://mitaka1210.github.io/Portfolio-ENG/">Report Bug</a>
+    ·
+    <a href="https://mitaka1210.github.io/Personal-Portfolio--2/">Request Feature</a>
+  </p>
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-### `yarn test`
+<!-- ABOUT THE PROJECT -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About The Project
 
-### `yarn build`
+<a href="https://ibb.co/pzfwL8F"><img src="https://i.ibb.co/pzfwL8F/Pizza-1.png" alt="Pizza-1" border="0" style="width:18em" type="_blank"></a>
+<a href="https://ibb.co/vqvRMFJ"><img src="https://i.ibb.co/vqvRMFJ/Pizza-2.png" alt="Pizza-2" border="0" style="width:18em"></a>
+<a href="https://ibb.co/KG11PLC"><img src="https://i.ibb.co/KG11PLC/Pizza-3.png" alt="Pizza-3" border="0" style="width:18em"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>
+  The project was developed in the learning process. I have used various technologies in it, which will be described below. The aim of the project is to study <strong>ReactJS and React Hook, SCSS,Styled-components </strong>.
+  </p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project was build with:
 
-### `yarn eject`
+<h2>Tools</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1.<a href="https://app.netlify.com/">Netlify</a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>Technologys:</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<div style="display:flex">
+  <ul>
+    <li><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt=""></li>
+    <li><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt=""></li>
+    <li><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt=""></li>
+    <li><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt=""></li>
+    <li><img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" alt=""></li>
+    <li><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt=""></li>
+  </ul>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+</div>
 
-## Learn More
+<!-- GETTING STARTED -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To be able to start the project, clone the repository or download it.
 
-### Code Splitting
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Then you need to register at <strong>Stripe</strong>, <strong>Commerce.js</strong>.
 
-### Analyzing the Bundle Size
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Installation
 
-### Making a Progressive Web App
+1. Clone the repo
+   ```sh
+   git clone git@github.com:mitaka1210/d-r.Dimitrov.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- USAGE EXAMPLES -->
 
-### Advanced Configuration
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Need only check website !!!!
 
-### Deployment
+_For more examples, please refer to the [Documentation](https://github.com/mitaka1210/ProjectPizza)_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- ROADMAP -->
 
-### `yarn build` fails to minify
+## Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+See the [open issues](https://github.com/mitaka1210/ProjectPizza) for a list of proposed features (and known issues).
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<<<<<<< HEAD
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+<a href="https://mitaka1210.github.io/Portfolio-ENG/">eng.Dimitar Dimitrov</a>
+
+Project Link: <a href="https://my-pizza-shop-1.herokuapp.com/">Pizza Shop</a>
