@@ -34,7 +34,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <a href="https://ibb.co/RBr2KFH"><img src="https://i.ibb.co/RBr2KFH/Header-for-Readme.png" alt="Header-for-Readme" border="0"></a>
+<a href="https://ibb.co/mHC0pmF"><img src="https://i.ibb.co/mHC0pmF/Logo-readme.png" alt="Logo-readme" border="0"></a>
 
   <h3 align="center">Website for dental practice D-r Dimitrov</h3>
 
@@ -44,7 +44,7 @@
     <a href="https://github.com/mitaka1210/d-r.Dimitrov"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://app.netlify.com/sites/peaceful-kalam-0617fc/overview">View Demo</a>
+    <a href="https://peaceful-kalam-0617fc.netlify.app/">View Demo</a>
     ·
     <a href="https://mitaka1210.github.io/Portfolio-ENG/">Report Bug</a>
     ·
@@ -173,4 +173,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <a href="https://mitaka1210.github.io/Portfolio-ENG/">eng.Dimitar Dimitrov</a>
 
-Project Link: <a href="https://app.netlify.com/sites/peaceful-kalam-0617fc/overview">D-r A.Dimitrov</a>
+Project Link: <a href="https://peaceful-kalam-0617fc.netlify.app/">D-r A.Dimitrov</a>
