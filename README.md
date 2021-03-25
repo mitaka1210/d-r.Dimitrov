@@ -178,4 +178,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <a href="https://mitaka1210.github.io/Portfolio-ENG/">eng.Dimitar Dimitrov</a>
 
-Project Link: <a href="https://my-pizza-shop-1.herokuapp.com/">Pizza Shop</a>
+Project Link: <a href="https://app.netlify.com/sites/peaceful-kalam-0617fc/overview">D-r A.Dimitrov</a>
