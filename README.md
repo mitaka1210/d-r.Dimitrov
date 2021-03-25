@@ -144,7 +144,7 @@ Then you need to register at <strong>Stripe</strong>, <strong>Commerce.js</stron
 
 Need only check website !!!!
 
-_For more examples, please refer to the [Documentation](https://github.com/mitaka1210/ProjectPizza)_
+_For more examples, please refer to the [Documentation](https://github.com/mitaka1210/d-r.Dimitrov)_
 
 <!-- ROADMAP -->
 
