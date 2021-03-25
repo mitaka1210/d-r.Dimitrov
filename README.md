@@ -34,7 +34,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <a href="https://ibb.co/3Nx1WPW"><img src="https://i.ibb.co/3Nx1WPW/dda8ae289dfb57d723a16a13ea715682.jpg" alt="dda8ae289dfb57d723a16a13ea715682" border="0"></a>
+    <a href="https://ibb.co/RBr2KFH"><img src="https://i.ibb.co/RBr2KFH/Header-for-Readme.png" alt="Header-for-Readme" border="0"></a>
 
   <h3 align="center">Website for dental practice D-r Dimitrov</h3>
 
@@ -65,7 +65,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -82,12 +81,12 @@
 
 ## About The Project
 
-<a href="https://ibb.co/Y2SPbKj"><img src="https://i.ibb.co/Y2SPbKj/Footer-Readme.png" alt="Footer-Readme" border="0"></a>
 <a href="https://ibb.co/RBr2KFH"><img src="https://i.ibb.co/RBr2KFH/Header-for-Readme.png" alt="Header-for-Readme" border="0"></a>
+<a href="https://ibb.co/Y2SPbKj"><img src="https://i.ibb.co/Y2SPbKj/Footer-Readme.png" alt="Footer-Readme" border="0"></a>
 <a href="https://ibb.co/jz2PFBv"><img src="https://i.ibb.co/jz2PFBv/Servieces-readme.png" alt="Servieces-readme" border="0"></a>
 
 <p>
-  The project was developed in the learning process. I have used various technologies in it, which will be described below. The aim of the project is to study <strong>ReactJS and React Hook, SCSS,Styled-components </strong>.
+   The project was developed to helping the doctor and his patients. I have used various technologies in it, which will be described below. The aim of the project is many people can contact him and he helps them.<strong>ReactJS and React Hook, SCSS,Styled-components </strong>.
   </p>
 
 ### Built With
@@ -120,8 +119,6 @@ To be able to start the project, clone the repository or download it.
 
 ### Prerequisites
 
-Then you need to register at <strong>Stripe</strong>, <strong>Commerce.js</strong>.
-
 - npm
   ```sh
   npm install npm@latest -g
@@ -150,7 +147,7 @@ _For more examples, please refer to the [Documentation](https://github.com/mitak
 
 ## Roadmap
 
-See the [open issues](https://github.com/mitaka1210/ProjectPizza) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mitaka1210/d-r.Dimitrov) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
