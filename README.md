@@ -82,9 +82,9 @@
 
 ## About The Project
 
-<a href="https://ibb.co/pzfwL8F"><img src="https://i.ibb.co/pzfwL8F/Pizza-1.png" alt="Pizza-1" border="0" style="width:18em" type="_blank"></a>
-<a href="https://ibb.co/vqvRMFJ"><img src="https://i.ibb.co/vqvRMFJ/Pizza-2.png" alt="Pizza-2" border="0" style="width:18em"></a>
-<a href="https://ibb.co/KG11PLC"><img src="https://i.ibb.co/KG11PLC/Pizza-3.png" alt="Pizza-3" border="0" style="width:18em"></a>
+<a href="https://ibb.co/Y2SPbKj"><img src="https://ibb.co/RBr2KFH" alt="header-1" border="0" style="width:18em" type="_blank"></a>
+<a href="https://ibb.co/RBr2KFH"><img src="https://ibb.co/jz2PFBv" alt="Services" border="0" style="width:18em"></a>
+<a href="https://ibb.co/jz2PFBv"><img src="https://ibb.co/Y2SPbKj" alt="Footer" border="0" style="width:18em"></a>
 
 <p>
   The project was developed in the learning process. I have used various technologies in it, which will be described below. The aim of the project is to study <strong>ReactJS and React Hook, SCSS,Styled-components </strong>.
