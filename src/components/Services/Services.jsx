@@ -19,12 +19,11 @@ const Services = () => {
   }, []);
   return (
     <div className='services ' data-aos='fade-up'>
-      <h4 className=''>Services</h4>
-      <h2>My Services</h2>
-      <p>
-        Separated they live in. A small river named Duden flows by their place and supplies it with
-        the necessary regelialia. It is a paradisematic country
-      </p>
+      <h1 className=''>Услугите които предлагам!</h1>
+      <h4>
+        Денталния кабинет на д-р Александър Димитров предлага диагностика, планиране и цялостно
+        лечение.
+      </h4>
 
       <div className='servicesContainer '>
         <Card

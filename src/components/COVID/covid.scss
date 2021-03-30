@@ -1,0 +1,52 @@
+.content__messages {
+  display: flex;
+  padding: 20px;
+  flex-flow: column wrap;
+
+  ol {
+    background: azure;
+    box-shadow: 1px -1px 5px 3px;
+    border-radius: 15px;
+    li {
+      padding: 5px;
+    }
+    & > ::marker {
+      font-weight: bold;
+      color: #34af80;
+    }
+  }
+}
+
+.wrapper__messages__COVID {
+  display: flex;
+  flex-flow: row;
+
+  .img__covid__messages {
+    & > img {
+      border-radius: 30px;
+      height: 15rem;
+      width: 29rem;
+      margin: 2rem;
+    }
+  }
+}
+
+.text__covid {
+  align-self: center;
+
+  & > h1 {
+    border-bottom: 2px solid brown;
+    color: crimson;
+  }
+  & > .text__covid__msg {
+    padding-bottom: 0;
+    text-align: center;
+    & > h3 {
+      color: rgba(46, 204, 113, 1);
+    }
+  }
+}
+
+strong {
+  color: red;
+}

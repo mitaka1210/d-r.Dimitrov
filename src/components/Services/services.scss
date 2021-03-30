@@ -5,6 +5,18 @@
   min-height: 100vh;
   flex-direction: column;
   text-align: center;
+
+  & > h1 {
+    border-radius: 10px;
+    box-shadow: 10px 10px 45px 1px rgba(15, 231, 235, 0.75);
+    -webkit-box-shadow: 10px 10px 45px 1px rgba(15, 231, 235, 0.75);
+    -moz-box-shadow: 10px 10px 45px 1px rgba(15, 231, 235, 0.75);
+    padding: 15px;
+  }
+
+  & > h4 {
+    border-bottom: 2px solid saddlebrown;
+  }
 }
 
 .servicesContainer {
@@ -161,15 +173,7 @@
   margin-top: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
-.services h2 {
-  border: 3px solid #03fa14;
-  border-radius: 30px;
-  width: 8em;
-  text-align: center;
-  -webkit-box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 9px 21px 0px rgba(0, 0, 0, 0.75);
-}
+
 .contentText > h6 {
   padding-top: 13px;
 }

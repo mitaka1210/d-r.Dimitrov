@@ -32,7 +32,7 @@ const Testimonial = () => {
 
   return (
     <div className='gtco-testimonials'>
-      <h2>Testimonials Carousel - Cards Comments</h2>
+      <h2>Какво казват моите пациенти за мен!</h2>
       <OwlCarousel
         className='owl-carousel owl-carousel1 owl-theme'
         autoplay
@@ -50,8 +50,8 @@ const Testimonial = () => {
               />
               <div className='card-body'>
                 <h5>
-                  Ronne Galle <br />
-                  <span> Project Manager </span>
+                  eng.Dimitar Dimitrov <br />
+                  <span> Developer </span>
                 </h5>
                 <p className='card-text'>
                   “ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo

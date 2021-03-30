@@ -1,0 +1,67 @@
+.icon__icon {
+  width: 5rem;
+  height: 5rem;
+
+  background: #f0e4e4;
+  padding: 20px;
+  border: 2px solid #dec9c9;
+  border-radius: 2em;
+}
+
+.content__saveWork {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 4px 10px 6px;
+  margin-left: 3em;
+  border-radius: 20px;
+
+  & > h2 {
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid brown;
+  }
+
+  & > .wrapper__saveWork {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 4rem;
+  }
+  .hands__saveWork {
+    flex: 4;
+    text-align: center;
+  }
+  .bin__saveWork {
+    flex: 4;
+    text-align: center;
+  }
+  .temperature__saveWork {
+    flex: 4;
+    text-align: center;
+  }
+  .pump__saveWork {
+    flex: 4;
+    text-align: center;
+  }
+  .calendar__saveWork {
+    flex: 4;
+    text-align: center;
+  }
+  .glasses__saveWork {
+    flex: 4;
+    text-align: center;
+  }
+}
+
+.wrapper__saveWork_2,
+.wrapper__saveWork_3 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.more__info > p {
+  width: 406px;
+}

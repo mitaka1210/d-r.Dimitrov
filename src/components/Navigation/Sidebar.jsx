@@ -23,14 +23,18 @@ export default class Sidebar extends React.Component {
         isOpen={this.state.menuOpen}
         onStateChange={(state) => this.handleStateChange(state)}>
         <Link onClick={() => this.closeMenu()} className='menu-item' to='/'>
-          Home
+          Начало
         </Link>
         <Link onClick={() => this.closeMenu()} className='menu-item' to='/about'>
-          About
+          За мен
           {/*<SubMenu />*/}
         </Link>
+
+        <Link onClick={() => this.closeMenu()} className='menu-item' to='/services'>
+          Услуги
+        </Link>
         <Link onClick={() => this.closeMenu()} className='menu-item' to='/contact'>
-          Contact
+          Контакти
         </Link>
       </Menu>
     );

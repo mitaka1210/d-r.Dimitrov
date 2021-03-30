@@ -9,7 +9,7 @@ const ContactContent = () => {
     <>
       <div className='contact__header'>
         <h1>Свържете се с мен</h1>
-        <p>I always welcome new patients and are excited you found me.</p>
+        <p>Винаги приветствам нови пациенти и се радвам, че ме намерихте.</p>
       </div>
 
       <div className='map__contact'>
