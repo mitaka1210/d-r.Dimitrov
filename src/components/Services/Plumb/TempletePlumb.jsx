@@ -1,7 +1,9 @@
 import React from 'react';
 //?COMPONENTS
 import Footer from '../../Footer/Footer';
-const PageService = ({
+//?STYLES
+import './plumb.scss';
+const TempletePlumb = ({
   title,
   text,
   img,
@@ -16,16 +18,15 @@ const PageService = ({
   altThird,
   titleThird,
   imgFourth,
+  imgFive,
+  altFive,
+  textFour,
 }) => {
   return (
     <section>
       <div className='content__Services'>
         <h2>{title}</h2>
         <div className='wrapper__Services'>
-          <div className='images__Right'>
-            <img src={img} alt={alt} />
-          </div>
-
           <div className='text__Left'>
             <p>{text}</p>
           </div>
@@ -60,7 +61,20 @@ const PageService = ({
                 <li>{textThird}</li>
                 <li>{textThird2}</li>
               </ol>
-              <img className='last__img' src={imgFourth} alt={imgFourth} />
+              <div className='last__img__plumb'>
+                <img className='last__img__1' src={imgFourth} alt={imgFourth} />
+                <img className='last__img__2' src={imgFive} alt={altFive} />
+              </div>
+              <p>
+                Спазвайки най-високите медицински стандарти и използвайки качествени иновативни
+                материали,{' '}
+                <strong>
+                  Aз Ви давам гаранция, че Вашата пломба ще бъде естетична и дълготрайна
+                </strong>
+                . Д-р Александър Димитров се е специализирал в лечението на пациенти , които искат
+                невидими възстановявания на предните си зъби и не искат зъбите им да бъдат
+                изпилявани за корони.
+              </p>
             </div>
           </div>
         </div>
@@ -71,4 +85,4 @@ const PageService = ({
   );
 };
 
-export default PageService;
+export default TempletePlumb;

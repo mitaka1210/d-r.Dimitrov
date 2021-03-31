@@ -2,9 +2,9 @@ import React from 'react';
 
 import { BrowserRouter as Router, Route, Switch, useLocation } from 'react-router-dom';
 //? COMPONENTS
-import Pages from './components/Services/Pages/Pages';
+import { Pages, Cosmetic, Plumb, Whitening, PorcelainFillings } from './components/Services';
 import Messages from './components/AlertMessages/Messages';
-import Cosmetic from './components/Services/Cosmetic/Cosmetic';
+
 import COVID from './components/COVID/Message';
 import { Navigation } from './components';
 import { Home, About, Contact, Services } from './pages';
@@ -34,7 +34,10 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/services' component={Services} />
           <Route path='/pages' component={Pages} />
+          <Route path='/plumb' component={Plumb} />
           <Route path='/cosmetic' component={Cosmetic} />
+          <Route path='/whitening' component={Whitening} />
+          <Route path='/porcelainfillings' component={PorcelainFillings} />
           <Route path='/covid' component={COVID} />
         </Switch>
       </Router>

@@ -1,7 +1,7 @@
 import React from 'react';
 //?COMPONENTS
 import Footer from '../../Footer/Footer';
-const PageService = ({
+const TemplateCosmetics = ({
   title,
   text,
   img,
@@ -56,7 +56,7 @@ const PageService = ({
             </div>
 
             <div className='text__Left'>
-              <ol>
+              <ol className='cosmetic__component'>
                 <li>{textThird}</li>
                 <li>{textThird2}</li>
               </ol>
@@ -71,4 +71,4 @@ const PageService = ({
   );
 };
 
-export default PageService;
+export default TemplateCosmetics;

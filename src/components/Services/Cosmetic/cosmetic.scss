@@ -84,4 +84,9 @@
     border-radius: 40px;
     margin-bottom: 3rem;
   }
+  & > .cosmetic__component {
+    & > li:nth-child(2) {
+      display: none;
+    }
+  }
 }
