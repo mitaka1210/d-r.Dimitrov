@@ -1,0 +1,98 @@
+.gum__Main {
+  display: flex;
+  flex-flow: column wrap;
+
+  & > .gum__Header {
+    & > h1 {
+      text-align: center;
+    }
+  }
+}
+
+.wrapper__page {
+  display: flex;
+  flex-flow: column wrap;
+
+  & > p {
+    align-self: center;
+    text-align: center;
+    width: calc(100% - 20px);
+  }
+
+  & > .left__img {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: honeydew;
+    padding: 2rem;
+    border-radius: 45px;
+    margin: 0 1rem;
+
+    box-shadow: inset 0px 0px 11px 10px #41c7ce;
+    & > img {
+      flex: 1;
+      border-radius: 30px;
+      width: 400px;
+      height: 300px;
+      margin-left: 2rem;
+    }
+    & > p {
+      flex: 2;
+      text-align: center;
+    }
+  }
+}
+
+.first__Text {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: 100vh;
+  width: 100%;
+  & > h4 {
+    text-align: center;
+    padding: 0.5em;
+  }
+  & > .two__images {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+
+    & > .img__One {
+      border-radius: 30px;
+      width: 400px;
+      height: 300px;
+    }
+
+    & > .img__Two {
+      border-radius: 30px;
+      width: 400px;
+      height: 300px;
+    }
+  }
+}
+
+.right__img {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+  & > img {
+    flex: 1;
+    border-radius: 30px;
+    width: 400px;
+    height: 300px;
+  }
+  & > p {
+    flex: 2;
+    text-align: center;
+  }
+}

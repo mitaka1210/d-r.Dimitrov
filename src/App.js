@@ -2,7 +2,16 @@ import React from 'react';
 
 import { BrowserRouter as Router, Route, Switch, useLocation } from 'react-router-dom';
 //? COMPONENTS
-import { Pages, Cosmetic, Plumb, Whitening, PorcelainFillings } from './components/Services';
+import {
+  Pages,
+  Cosmetic,
+  Plumb,
+  Whitening,
+  PorcelainFillings,
+  GumTreatment,
+  RootCanal,
+  Fiberglass,
+} from './components/Services';
 import Messages from './components/AlertMessages/Messages';
 
 import COVID from './components/COVID/Message';
@@ -38,6 +47,9 @@ function App() {
           <Route path='/cosmetic' component={Cosmetic} />
           <Route path='/whitening' component={Whitening} />
           <Route path='/porcelainfillings' component={PorcelainFillings} />
+          <Route path='/gumtreatment' component={GumTreatment} />
+          <Route path='/rootcanaltreatment' component={RootCanal} />
+          <Route path='/fiberglasssplinting' component={Fiberglass} />
           <Route path='/covid' component={COVID} />
         </Switch>
       </Router>

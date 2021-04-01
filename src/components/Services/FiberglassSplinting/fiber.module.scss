@@ -1,0 +1,11 @@
+.fiber__component {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  & > p {
+    text-align: center;
+    padding: 1rem;
+  }
+}
