@@ -16,11 +16,9 @@ function Logo() {
       </div>
       <div className={style.btn__Header}>
         <Button>
-          <span className={style.btn__Appointment}>
-            <a href='https://detistguide.setmore.com/' target='_blank'>
-              Запазете си час сега!
-            </a>
-          </span>
+          <Link href='https://detistguide.setmore.com/' target='_blank'>
+            Запазете си час сега!
+          </Link>
         </Button>
 
         <Button className={style.btn__Header_2}>

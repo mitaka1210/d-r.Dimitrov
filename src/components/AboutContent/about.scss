@@ -26,3 +26,20 @@
 .second__Ele {
   padding: 0px 15px 15px 15px;
 }
+
+@media screen and (max-width: 500px) {
+  .content__About {
+    display: flex;
+    flex-flow: column;
+    padding: 15px;
+  }
+  .wrapper__Abut {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .img__About img {
+    width: 250px;
+    margin-left: 3em;
+  }
+}

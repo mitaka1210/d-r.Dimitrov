@@ -32,6 +32,9 @@ footer h2 {
   .takeAppointment {
     position: absolute;
     left: 52rem;
+    .main__Btn {
+      width: 100%;
+    }
   }
   .socialMedia {
     flex: 1 1;
@@ -51,11 +54,25 @@ footer h2 {
 //? MEDIA
 
 @media screen and (max-width: 500px) {
-  .wrapperFooter .takeAppointment {
-    left: 9rem;
-    margin-top: 12rem;
+  .wrapperFooter {
+    align-items: center;
+    flex-flow: column;
+
+    .socialMedia {
+      margin-top: 8rem;
+      & > button {
+        margin: 0px 0px 0px 15px;
+      }
+    }
   }
-  .wrapperFooter .socialMedia {
-    margin-top: 3rem;
+  .wrapperFooter .takeAppointment {
+    left: 7rem;
+    margin-top: 17rem;
+  }
+
+  .takeAppointment {
+    & > .main__Btn {
+      width: 100%;
+    }
   }
 }

@@ -21,3 +21,10 @@
     left: 5rem;
   }
 }
+@media screen and (max-width: 500px) {
+  .covid {
+    width: 24rem;
+    height: 83vh;
+    left: 1.2rem;
+  }
+}

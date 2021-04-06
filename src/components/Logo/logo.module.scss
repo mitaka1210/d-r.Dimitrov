@@ -1,3 +1,7 @@
+.logo {
+  display: flex;
+  flex-flow: column wrap;
+}
 .img {
   margin-bottom: 3rem;
   img {
@@ -33,7 +37,37 @@
   flex-flow: column wrap;
   margin-bottom: 2rem;
   position: absolute;
-
+  width: 50%;
+  height: 20vh;
   top: 1rem;
   left: 2rem;
+}
+
+@media screen and(max-width: 500px) {
+  .logo {
+    height: 50vh;
+    justify-content: space-between;
+  }
+
+  .logo .img img {
+    margin-top: -2.1em;
+  }
+
+  .my {
+    left: 0;
+    top: 0;
+  }
+
+  .btn__Header {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .mainLogo {
+    display: none;
+  }
 }

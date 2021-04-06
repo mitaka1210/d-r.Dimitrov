@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+//? STYLES
 import './footer.scss';
-import footerLogo from '../../assets/VectorFooter.svg';
+//? COMPONENTS
 import Button from '../Buttons/Button';
 const Footer = () => {
   return (
@@ -34,9 +36,7 @@ const Footer = () => {
         </div>
         <div className='takeAppointment'>
           <Button>
-            <span>
-              <a href='https://detistguide.setmore.com/'>Запазете си час сега!</a>
-            </span>
+            <Link href='https://detistguide.setmore.com/'>Запазете си час сега!</Link>
           </Button>
         </div>
         <div className='socialMedia'>

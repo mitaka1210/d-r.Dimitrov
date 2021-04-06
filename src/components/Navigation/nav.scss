@@ -76,3 +76,9 @@
   background: rgba(0, 0, 0, 0.3);
   margin-top: -1.5em;
 }
+
+@media screen and (max-width: 500px) {
+  .bm-burger-button {
+    right: 11px;
+  }
+}
