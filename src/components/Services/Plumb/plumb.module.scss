@@ -1,12 +1,12 @@
 .content__Services {
   & > h2 {
-    width: 400px;
+    width: 100%;
     text-align: center;
   }
 }
 .images__Right {
   img {
-    width: 450px;
+    width: 250px;
     float: right;
     border-radius: 50%;
     shape-outside: circle(44.32% at 263px 139px);
@@ -18,7 +18,8 @@
 
 .text__Left {
   padding-left: 1rem;
-  p {
+
+  & > p {
     &::first-letter {
       color: red;
       font-size: 3em;
@@ -44,11 +45,12 @@
     z-index: 59;
     & > .images__Right img {
       float: left;
-      margin-right: 18em;
+      margin-right: 8em;
     }
 
-    & > .text__Left {
-      width: 62rem;
+    & > .text__Left p {
+      width: 100%;
+
       position: relative;
       top: 3em;
       line-height: 31px;
@@ -61,6 +63,11 @@
 .content__Three {
   & h2 {
     text-align: center;
+  }
+  & > .wrapper__Services {
+    & > .images__Right img {
+      width: 450px;
+    }
   }
 }
 
@@ -78,10 +85,55 @@
       color: red;
     }
   }
+}
 
-  & > .last__img {
-    transform: translate(30%, 10px);
+.last__img__plumb {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  & > .last__img__1,
+  .last__img__2 {
+    width: 300px;
+
     border-radius: 40px;
     margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content__Second {
+    height: 90vh;
+    & > h2 {
+      margin: 0;
+    }
+
+    .wrapper__Services {
+      display: flex;
+      flex-flow: column;
+      align-items: end;
+      justify-content: center;
+    }
+  }
+
+  .content__Three {
+    & > .wrapper__Services {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding-right: 11px;
+
+      & > .images__Right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & > img {
+          margin: 0;
+          width: 200px;
+        }
+      }
+    }
   }
 }

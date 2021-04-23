@@ -1,6 +1,7 @@
 footer h2 {
   text-align: center;
   margin: 20px;
+  width: 100%;
 }
 
 .wrapperFooter {
@@ -74,5 +75,10 @@ footer h2 {
     & > .main__Btn {
       width: 100%;
     }
+  }
+
+  footer h2 {
+    margin: 0;
+    padding: 15px;
   }
 }

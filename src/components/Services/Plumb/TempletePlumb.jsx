@@ -2,7 +2,7 @@ import React from 'react';
 //?COMPONENTS
 import Footer from '../../Footer/Footer';
 //?STYLES
-import './plumb.scss';
+import styles from './plumb.module.scss';
 const TempletePlumb = ({
   title,
   text,
@@ -24,46 +24,46 @@ const TempletePlumb = ({
 }) => {
   return (
     <section>
-      <div className='content__Services'>
+      <div className={styles.content__Services}>
         <h2>{title}</h2>
-        <div className='wrapper__Services'>
-          <div className='text__Left'>
+        <div className={styles.wrapper__Services}>
+          <div className={styles.text__Left}>
             <p>{text}</p>
           </div>
         </div>
       </div>
 
-      <div className='content__Services'>
-        <div className='content__Second'>
+      <div className={styles.content__Services}>
+        <div className={styles.content__Second}>
           <h2>{titleSecond}</h2>
-          <div className='wrapper__Services'>
-            <div className='images__Right'>
+          <div className={styles.wrapper__Services}>
+            <div className={styles.images__Right}>
               <img src={imgSecond} alt={altSecond} />
             </div>
 
-            <div className='text__Left'>
+            <div className={styles.text__Left}>
               <p>{textSecond}</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='content__Services'>
-        <div className='content__Three'>
+      <div className={styles.content__Services}>
+        <div className={styles.content__Three}>
           <h2>{titleThird}</h2>
-          <div className='wrapper__Services'>
-            <div className='images__Right'>
+          <div className={styles.wrapper__Services}>
+            <div className={styles.images__Right}>
               <img src={imgThird} alt={altThird} />
             </div>
 
-            <div className='text__Left'>
+            <div className={styles.text__Left}>
               <ol>
                 <li>{textThird}</li>
                 <li>{textThird2}</li>
               </ol>
-              <div className='last__img__plumb'>
-                <img className='last__img__1' src={imgFourth} alt={imgFourth} />
-                <img className='last__img__2' src={imgFive} alt={altFive} />
+              <div className={styles.last__img__plumb}>
+                <img className={styles.last__img__1} src={imgFourth} alt={imgFourth} />
+                <img className={styles.last__img__2} src={imgFive} alt={altFive} />
               </div>
               <p>
                 Спазвайки най-високите медицински стандарти и използвайки качествени иновативни

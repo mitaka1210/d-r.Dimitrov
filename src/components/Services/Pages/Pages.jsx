@@ -4,7 +4,6 @@ import img1 from '../../../assets/images/facet_1.jpeg';
 import img2 from '../../../assets/images/facet_2.jpeg';
 import img3 from '../../../assets/images/facet_3.jpeg';
 import img4 from '../../../assets/images/facet_4.jpeg';
-import './pages.scss';
 
 const Pages = () => {
   return (
